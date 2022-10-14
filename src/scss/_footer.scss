@@ -1,6 +1,8 @@
 .site-footer {
-  a:not(.btn) {
-    color: $brand-inverse;
+  border-top: 1px solid #eee;
+  p {
+    font-size: 12px;
+    text-align: center;
   }
 
   //sass-lint:disable class-name-format

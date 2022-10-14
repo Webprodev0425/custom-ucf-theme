@@ -11,7 +11,7 @@ $subtitle_classes = 'lead mb-2 mb-md-3';
 ?>
 
 <?php if ( $title ): ?>
-<div class="container">
+<div class="container" style = "display:none;">
 	<<?php echo $title_elem; ?> class="<?php echo $title_classes; ?>">
 		<?php echo $title; ?>
 	</<?php echo $title_elem; ?>>

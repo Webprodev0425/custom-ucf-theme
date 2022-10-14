@@ -1,3 +1,52 @@
 .flex {
     display: flex;
+    @include media-breakpoint-down(sm) {
+        display: block;
+    }
+    .left_site_bar {
+        width: 18%;
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+        }
+    }
+    .page_body {
+        width: 40%;
+        margin-left: 3%;
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+    .right_side_bar {
+        width: 36%;
+        margin-left: 3%;
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+    .normal_page_body {
+        width: 79%;
+        margin-left: 3%;
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            margin-left: 0;
+        }
+        .person {
+            display: flex;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 25px;
+            padding: 10px 0;
+            .person_image {
+                width: 20%;
+                img {
+                    width: 100%;
+                }
+            }
+            .person_data {
+                width: 75%;
+                margin-left: 5%;
+            }
+        }
+    }
 }

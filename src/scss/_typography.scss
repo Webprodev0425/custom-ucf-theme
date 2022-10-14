@@ -1,3 +1,6 @@
+body {
+  color: #222;
+}
 p:empty {
   display: none;
 }
@@ -43,4 +46,30 @@ p:empty {
       text-decoration: underline;
     }
   }
+}
+button {
+  background-color: #33c3f0;
+  color: #fff;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+h1 {
+  font-size: 36px;
+  font-weight: normal;
+  letter-spacing: -.1rem;
+}
+h4 {
+  font-size: 30px;
+  line-height: 1.35;
+  letter-spacing: -.08rem;
+  font-weight: 300;
+}
+h5 {
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: -.05rem;
+  font-weight: 300;
 }
